@@ -1,0 +1,82 @@
+body {
+  background-color: #FFD7DD;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  color: #400E15;
+  margin-left: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.me {
+  font-size: 14px;
+}
+
+.calculatorWhole {
+  background: url('http://data.whicdn.com/images/30653709/large.png');
+  background-color: skyblue;
+  padding: 25px 30px 20px 30px;
+  margin: 20px auto 0px auto;
+  border-radius: 10px;
+  border: 1.5px solid grey;
+  height: 340px;
+  width: 253px;
+}
+
+.screen {
+  margin-bottom: 10px;
+  background-color: white;
+  padding-left: 15px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.keys {
+  margin: 0px auto 5px auto;
+  position: absolute;
+  display: inline-block;
+  height: auto;
+}
+
+button {
+  background-color: #FD8495;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 45px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  border: 0.5px solid red;
+}
+
+.red {
+  background-color: #F61131;
+  color: white;
+}
+
+#equal {
+  position: absolute;
+  height: 84px;
+}
+
+.zero {
+  width: 94px;
+}
+
+button:active {
+  transform: translateY(1px);
+  background-color: #F93853; 
+  outline: none;
+  font-weight: bold;
+}
+
+button:focus {
+  outline: none;
+}
+
+.red:active {
+  background-color: #66000E;
+}
